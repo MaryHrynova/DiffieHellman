@@ -1,0 +1,9 @@
+C:\GitHub\DiffieHellman\Shared\bin\Debug\netstandard2.1\DiffieHellman.Shared.deps.json
+C:\GitHub\DiffieHellman\Shared\bin\Debug\netstandard2.1\DiffieHellman.Shared.dll
+C:\GitHub\DiffieHellman\Shared\bin\Debug\netstandard2.1\DiffieHellman.Shared.pdb
+C:\GitHub\DiffieHellman\Shared\obj\Debug\netstandard2.1\DiffieHellman.Shared.csproj.CoreCompileInputs.cache
+C:\GitHub\DiffieHellman\Shared\obj\Debug\netstandard2.1\DiffieHellman.Shared.AssemblyInfoInputs.cache
+C:\GitHub\DiffieHellman\Shared\obj\Debug\netstandard2.1\DiffieHellman.Shared.AssemblyInfo.cs
+C:\GitHub\DiffieHellman\Shared\obj\Debug\netstandard2.1\DiffieHellman.Shared.dll
+C:\GitHub\DiffieHellman\Shared\obj\Debug\netstandard2.1\DiffieHellman.Shared.pdb
+C:\GitHub\DiffieHellman\Shared\obj\Debug\netstandard2.1\DiffieHellman.Shared.csprojAssemblyReference.cache

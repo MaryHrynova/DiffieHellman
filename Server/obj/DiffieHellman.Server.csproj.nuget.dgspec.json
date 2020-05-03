@@ -1,0 +1,281 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\GitHub\\DiffieHellman\\Server\\DiffieHellman.Server.csproj": {}
+  },
+  "projects": {
+    "C:\\GitHub\\DataAndSoftwareSecurity\\DataAndSoftwareSecurity_Lab1_Core\\DataAndSoftwareSecurity_Lab1_Core.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\DataAndSoftwareSecurity\\DataAndSoftwareSecurity_Lab1_Core\\DataAndSoftwareSecurity_Lab1_Core.fsproj",
+        "projectName": "DataAndSoftwareSecurity_Lab1_Core",
+        "projectPath": "C:\\GitHub\\DataAndSoftwareSecurity\\DataAndSoftwareSecurity_Lab1_Core\\DataAndSoftwareSecurity_Lab1_Core.fsproj",
+        "packagesPath": "C:\\Users\\Mary\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\DataAndSoftwareSecurity\\DataAndSoftwareSecurity_Lab1_Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.7.0, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\DiffieHellman\\Client\\DiffieHellman.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\DiffieHellman\\Client\\DiffieHellman.Client.csproj",
+        "projectName": "DiffieHellman.Client",
+        "projectPath": "C:\\GitHub\\DiffieHellman\\Client\\DiffieHellman.Client.csproj",
+        "packagesPath": "C:\\Users\\Mary\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\DiffieHellman\\Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\GitHub\\DataAndSoftwareSecurity\\DataAndSoftwareSecurity_Lab1_Core\\DataAndSoftwareSecurity_Lab1_Core.fsproj": {
+                "projectPath": "C:\\GitHub\\DataAndSoftwareSecurity\\DataAndSoftwareSecurity_Lab1_Core\\DataAndSoftwareSecurity_Lab1_Core.fsproj"
+              },
+              "C:\\GitHub\\DiffieHellman\\Shared\\DiffieHellman.Shared.csproj": {
+                "projectPath": "C:\\GitHub\\DiffieHellman\\Shared\\DiffieHellman.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.0-preview5.20216.8, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0-preview5.20216.8, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0-preview5.20216.8, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0-preview5.20210.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\DiffieHellman\\Server\\DiffieHellman.Server.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\DiffieHellman\\Server\\DiffieHellman.Server.csproj",
+        "projectName": "DiffieHellman.Server",
+        "projectPath": "C:\\GitHub\\DiffieHellman\\Server\\DiffieHellman.Server.csproj",
+        "packagesPath": "C:\\Users\\Mary\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\DiffieHellman\\Server\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\GitHub\\DiffieHellman\\Client\\DiffieHellman.Client.csproj": {
+                "projectPath": "C:\\GitHub\\DiffieHellman\\Client\\DiffieHellman.Client.csproj"
+              },
+              "C:\\GitHub\\DiffieHellman\\Shared\\DiffieHellman.Shared.csproj": {
+                "projectPath": "C:\\GitHub\\DiffieHellman\\Shared\\DiffieHellman.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+              "target": "Package",
+              "version": "[3.2.0-preview5.20216.8, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\GitHub\\DiffieHellman\\Shared\\DiffieHellman.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\GitHub\\DiffieHellman\\Shared\\DiffieHellman.Shared.csproj",
+        "projectName": "DiffieHellman.Shared",
+        "projectPath": "C:\\GitHub\\DiffieHellman\\Shared\\DiffieHellman.Shared.csproj",
+        "packagesPath": "C:\\Users\\Mary\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\DiffieHellman\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Mary\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
